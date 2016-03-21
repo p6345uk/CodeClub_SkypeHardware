@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lyncx", "lyncx\lyncx.csproj", "{83DE5500-7474-4943-BCC0-25D4EC5BDA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{3C818CEE-9FBF-4B47-BE6E-7E08F268457A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beakn.desktop.serial", "beakn.desktop.serial\beakn.desktop.serial.csproj", "{2E6BA4B0-B858-482B-BCAC-33E636B2616F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83DE5500-7474-4943-BCC0-25D4EC5BDA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DE5500-7474-4943-BCC0-25D4EC5BDA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DE5500-7474-4943-BCC0-25D4EC5BDA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DE5500-7474-4943-BCC0-25D4EC5BDA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C818CEE-9FBF-4B47-BE6E-7E08F268457A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C818CEE-9FBF-4B47-BE6E-7E08F268457A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C818CEE-9FBF-4B47-BE6E-7E08F268457A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C818CEE-9FBF-4B47-BE6E-7E08F268457A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6BA4B0-B858-482B-BCAC-33E636B2616F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6BA4B0-B858-482B-BCAC-33E636B2616F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6BA4B0-B858-482B-BCAC-33E636B2616F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6BA4B0-B858-482B-BCAC-33E636B2616F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
