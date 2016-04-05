@@ -124,6 +124,8 @@ namespace lyncx
             Id = rnd.Next(1, 17000);
 
             SetAvailability();
+			updateCallStatuses();
+			ExternalStatusChanged();
         }
         #region removed
         private void ConversationRemoved(object sender, ConversationManagerEventArgs e)
