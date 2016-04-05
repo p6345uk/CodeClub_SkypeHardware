@@ -175,7 +175,11 @@ namespace lyncx
                 }
                 if (external)
                 {
-                    ActiveExternalAudioCalls.Remove(e.Participant.Conversation.Properties[ConversationProperty.Id].ToString());
+                    ExternalStatusChanged();
+                }
+                else
+                {
+                    updateCallStatuses();
                     ExternalStatusChanged();
                 }
 
